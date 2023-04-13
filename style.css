@@ -64,13 +64,25 @@
 }
 
 .rodape {
-   height: 150px;
+   height: 200;
    background: #DAA00C;
    color: #070C3E;
 }
 
+.rodape-grupo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.rodape-icone{
+    width: 25px;
+}
+
 .rodape-texto{
-    font-size: 50px;
-    text-align: center;
-    padding: 40px;
+    font-size: 20px;
+    display: block;
+    padding: 5px;
 }
